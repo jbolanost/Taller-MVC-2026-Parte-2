@@ -113,5 +113,10 @@ namespace Capa_Vista_Taller_Parte_2.Formas
             frmReporteTipoSancion reporte = new frmReporteTipoSancion();
             reporte.Show();
         }
+
+        private void btnAyuda_Click(object sender, EventArgs e)
+        {
+            Help.ShowHelp(this, "c:/AyudaTaller/CapaTaller.chm", "index.html");
+        }
     }
 }
