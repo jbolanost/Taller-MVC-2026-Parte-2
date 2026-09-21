@@ -107,5 +107,11 @@ namespace Capa_Vista_Taller_Parte_2.Formas
             comboI1.llenarCombo("sancion", "id_tipo_sancion", "descripcion");
 
         }
+
+        private void btnImprimir_Click(object sender, EventArgs e)
+        {
+            frmReporteTipoSancion reporte = new frmReporteTipoSancion();
+            reporte.Show();
+        }
     }
 }
